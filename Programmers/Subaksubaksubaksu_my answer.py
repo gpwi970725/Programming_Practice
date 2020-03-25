@@ -12,8 +12,7 @@ We can solve this problem like this.
 method1 >
 '''
 def solution(n):
-    s = "수박" * n
-    return s[:n]
+    return ("수박"*n)[0:n]
 '''
 
 method2 >
